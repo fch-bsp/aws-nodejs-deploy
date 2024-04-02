@@ -67,6 +67,7 @@ app.get('/api/get_user_details', (req, res) => {
                 <li>Contato: 11995143947</li>
             </ul>
             <p>.env: ${process.env.NAME}</p>
+            <li>Versão app: 001</li>
         </div>
     `);
 });
@@ -106,6 +107,7 @@ app.listen(process.env.PORT, () => {
 //                 <li>Contact: 11995143947</li>
 //             </ul>
 //             <p>Environment: ${process.env.NAME}</p>
+//             <li>Versao app: 0001</li>
 //         </div>
 //     `);
 // });
