@@ -1,0 +1,12 @@
+Processo de install app
+
+
+1 npm init 
+
+2 npm i express 
+
+
+
+http://localhost:8000/api/get
+
+
