@@ -10,3 +10,8 @@ Processo de install app
 http://localhost:8000/api/get
 
 
+
+
+http://18.218.147.0/api/get_user_details
+
+http://18.218.147.0/api
