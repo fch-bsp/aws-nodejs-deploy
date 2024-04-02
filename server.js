@@ -65,9 +65,9 @@ app.get('/api/get_user_details', (req, res) => {
                 <li>Name:Fernando Carlos horas</li>
                 <li>Idade: 40</li>
                 <li>Contato: 11995143947</li>
+                <li>Versão app: 001</li>                
             </ul>
             <p>.env: ${process.env.NAME}</p>
-            <li>Versão app: 001</li>
         </div>
     `);
 });
