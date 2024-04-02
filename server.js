@@ -38,8 +38,8 @@ require("dotenv").config();
 
 // Estilos de formatação adicionados para destacar a sintaxe
 const estilos = `
-    background-color: #f0f0f0; /* Cor de fundo */
-    color: #333; /* Cor do texto */
+    background-color: #000; /* Cor de fundo preto */
+    color: #fff; /* Cor do texto branco */
     font-size: 16px; /* Tamanho da fonte */
     padding: 20px; /* Espaçamento interno */
 `;
