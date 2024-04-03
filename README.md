@@ -108,7 +108,7 @@ pm2 restart Backend
 
 These steps should help you set up a Node.js backend API with Nginx and PM2 on your Debian-based Linux system. Make sure to customize the paths and filenames according to your specific project.
 
-# Pipeline Actions
+# Pipeline/Build Actions
 ![2022584-04-03_09-13](https://github.com/fch-bsp/aws-nodejs-deploy/assets/102867453/7eb3765c-a9db-4ba1-a6f4-f097b8125474)
 
 
