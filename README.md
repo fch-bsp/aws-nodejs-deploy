@@ -2,6 +2,11 @@
 
 ## After successfully connecting github to remote server follow this commands
 
+
+## Choose a workflow
+![2024-04-03_08-54](https://github.com/fch-bsp/aws-nodejs-deploy/assets/102867453/c9594f06-215e-4506-8254-4eefe6eb877f)
+
+
 ### Step 1: Update Package Repositories
 
 ![Diagrama em branco (17)](https://github.com/fch-bsp/aws-nodejs-deploy/assets/102867453/71123d2b-63c3-426b-bbf2-48adb77d75d0)
