@@ -4,7 +4,8 @@
 
 ### Step 1: Update Package Repositories
 
-![top](https://github.com/fch-bsp/aws-nodejs-deploy/assets/102867453/a5b0e2e6-3ea1-458d-8db6-c5b148d686c3)
+![Diagrama em branco (17)](https://github.com/fch-bsp/aws-nodejs-deploy/assets/102867453/71123d2b-63c3-426b-bbf2-48adb77d75d0)
+
 
 
 Run the following command to update your package repositories:
