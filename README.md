@@ -9,9 +9,8 @@
 ## Runners
 
 ![2024-04-03_08-56](https://github.com/fch-bsp/aws-nodejs-deploy/assets/102867453/f19b743c-c2eb-457f-8c05-0d06bd62d133)
-
-
 ![2024-04-03_08-56_1](https://github.com/fch-bsp/aws-nodejs-deploy/assets/102867453/b54d7eb0-5afe-40f8-90d0-f87a7f73a9a3)
+![2024-04-03_08-f59](https://github.com/fch-bsp/aws-nodejs-deploy/assets/102867453/2e6cea0b-cf90-4605-9263-b845a2a145d6)
 
 ### Step 1: Update Package Repositories
 
