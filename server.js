@@ -52,12 +52,12 @@ const estilos = `
     font-size: 16px; /* Tamanho da fonte */
     padding: 20px; /* Espaçamento interno */
 `;
-// http://18.218.147.0/api
+// http://3.18.20.84/api
 app.get('/api/get', (req, res) => {
     res.send('<div style="' + estilos + '">hello back to nodejs v2</div>');
 });
 
-//http://18.218.147.0/api/get_user_details
+//http://3.18.20.84/api/get_user_details
 app.get('/api/get_user_details', (req, res) => {
     res.send(`
         <div style="${estilos}">
@@ -66,7 +66,7 @@ app.get('/api/get_user_details', (req, res) => {
                 <li>Name:Fernando Carlos horas</li>
                 <li>Idade: 40</li>
                 <li>Contato: 11995143947</li>
-                <li>Versão app: 003</li>                
+                <li>Versão app: 001</li>                
             </ul>
             <p>.env: ${process.env.NAME}</p>
         </div>
