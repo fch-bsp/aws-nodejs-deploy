@@ -44,7 +44,7 @@ Navigate to the Nginx sites-available directory and open the default configurati
 
 ```bash
 cd /etc/nginx/sites-available
-sudo nano default
+sudo vi default
 ```
 
 Inside the Nginx configuration file, add the following block to configure the reverse proxy for your API:
@@ -60,7 +60,7 @@ location /api {
 ```
 ```bash
 cd /etc/nginx/sites-available
-sudo systemctl restart nginx
+
 ```
 ### Step 6: Restart Nginx
 
