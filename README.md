@@ -38,6 +38,7 @@ Install PM2 globally to manage your Node.js application:
 sudo npm i -g pm2
 ```
 
+
 ### Step 5: Configure Nginx
 
 Navigate to the Nginx sites-available directory and open the default configuration file for editing:
@@ -84,6 +85,8 @@ Navigate to your project directory and start your Node.js application using PM2.
 cd /path/to/your/app
 pm2 start server.js --name=Backend
 ```
+![2024-04-03_08-52](https://github.com/fch-bsp/aws-nodejs-deploy/assets/102867453/2c48d3af-7eaf-444d-9916-89253b763f0f)
+
 
 ### Step 8: Restart Your Node.js Application with PM2 (Optional)
 
