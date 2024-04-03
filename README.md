@@ -6,6 +6,11 @@
 ## Choose a workflow
 ![2024-04-03_08-54](https://github.com/fch-bsp/aws-nodejs-deploy/assets/102867453/c9594f06-215e-4506-8254-4eefe6eb877f)
 
+## Runners
+
+![2024-04-03_08-54](https://github.com/fch-bsp/aws-nodejs-deploy/assets/102867453/d7d0f407-6801-45dd-8118-cb8f1197c81d)
+
+![2024-04-03_08-56_1](https://github.com/fch-bsp/aws-nodejs-deploy/assets/102867453/b54d7eb0-5afe-40f8-90d0-f87a7f73a9a3)
 
 ### Step 1: Update Package Repositories
 
