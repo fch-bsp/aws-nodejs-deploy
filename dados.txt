@@ -12,6 +12,11 @@ http://localhost:8000/api/get
 
 
 
-http://18.218.147.0/api/get_user_details
+//http://3.18.20.84/api/get_user_details
 
-http://18.218.147.0/api
+//http://3.18.20.84/api
+
+
+direitos: 
+
+https://www.youtube.com/watch?v=bLh79eCbnCs
