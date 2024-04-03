@@ -114,4 +114,5 @@ These steps should help you set up a Node.js backend API with Nginx and PM2 on y
 ![2024-04-03_09-07](https://github.com/fch-bsp/aws-nodejs-deploy/assets/102867453/e35fc0e1-5fc2-4bd3-b20e-635e4945fd3e)
 
 ## http://3.18.20.84/api
-![2024-04-03_09-07](https://github.com/fch-bsp/aws-nodejs-deploy/assets/102867453/76db9b8a-ea81-498e-bdcf-e6b416c25dd5)
+![f2024-04-03_09-08](https://github.com/fch-bsp/aws-nodejs-deploy/assets/102867453/cc181a75-dd01-4639-b85c-8e8030be792d)
+
