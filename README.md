@@ -19,7 +19,7 @@ sudo apt update
 Install Node.js using the following command:
 
 ```bash
-sudo apt-get install -y nodejs
+sudo apt-get install -y nodejs npm
 ```
 
 ### Step 3: Install Nginx
@@ -58,13 +58,17 @@ location /api {
     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 }
 ```
-
+```bash
+cd /etc/nginx/sites-available
+sudo 
 ### Step 6: Restart Nginx
 
 After making changes to the Nginx configuration, restart Nginx to apply the changes:
 
 ```bash
 sudo systemctl restart nginx
+sudo systemctl status nginx
+sudo systemctl start nginx
 ```
 
 ### Step 7: Start Your Node.js Application with PM2
