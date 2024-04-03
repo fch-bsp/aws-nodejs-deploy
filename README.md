@@ -67,7 +67,11 @@ After making changes to the Nginx configuration, restart Nginx to apply the chan
 
 ```bash
 sudo systemctl restart nginx
+```
+```bash
 sudo systemctl status nginx
+```
+```bash
 sudo systemctl start nginx
 ```
 
