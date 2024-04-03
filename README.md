@@ -60,7 +60,8 @@ location /api {
 ```
 ```bash
 cd /etc/nginx/sites-available
-sudo 
+sudo systemctl restart nginx
+```
 ### Step 6: Restart Nginx
 
 After making changes to the Nginx configuration, restart Nginx to apply the changes:
