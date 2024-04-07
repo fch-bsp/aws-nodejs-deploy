@@ -7,29 +7,40 @@ on:
   push:
     branches: [ "master" ]
 
-
 jobs:
   build:
-
     runs-on: self-hosted
-
     strategy:
       matrix:
         node-version: [18.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm ci
-    - run: |
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Create .env file
+        run: |
           touch .env
-          echo "${{ secrets.PROD }}" > .env    
-    - run: pm2 restart Backend    
-     # Adicionando logs
-    - name: Print status
-      run: echo "PM2 restarted successfully"
+          echo "${{ secrets.PROD }}" > .env
+
+      - name: Restart PM2
+        run: pm2 restart Backend
+
+      # Verificar se o processo PM2 está ativo
+      - name: Check if PM2 process is active
+        run: |
+          if pm2 list | grep -q 'Backend'; then
+            echo "Backend is active"
+          else
+            echo "Backend is not active"
+            exit 1
+          fi
