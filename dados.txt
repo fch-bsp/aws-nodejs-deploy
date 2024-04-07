@@ -20,3 +20,24 @@ http://localhost:8000/api/get
 direitos: 
 
 https://www.youtube.com/watch?v=bLh79eCbnCs
+
+
+
+
+
+http://localhost:8000/api/get_user_details
+
+http://localhost:8000/api/get
+
+
+
+acessar container 
+
+docker exec -it 3525ff2a113c /bin/bash
+
+
+docker exec -it 26084a8be4f0 pm2-runtime start server.js --name backend -i 3 --auto-restart
+
+
+
+pm2 stop backend
