@@ -9,14 +9,19 @@ const estilos = `
     padding: 20px;
 `;
 
-// Rota para exibir uma página com a imagem do bucket S3
-app.get('/api/get_with_image', (req, res) => {
+// Rota para exibir uma página com a imagem e o vídeo
+app.get('/api/get_with_image_and_video', (req, res) => {
     res.send(`
         <div style="${estilos}">
             <p>Esta é Topologia:</p>
             <p>Implantar projeto Node.js na Amazon EC2 com GitHub Actions:</p>
             <img src="https://lab-ec2-ci-cd.s3.us-east-2.amazonaws.com/Top.png" alt="Imagem de exemplo">
             <p>Versão 001</p>
+            <p>Aqui está um vídeo:</p>
+            <video width="640" height="360" controls>
+                <source src="https://lab-ec2-ci-cd.s3.us-east-2.amazonaws.com/2024-04-03+02-49-17.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
         </div>
     `);
 });
