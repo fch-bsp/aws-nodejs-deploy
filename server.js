@@ -7,9 +7,16 @@ const estilos = `
     color: #fff;
     font-size: 16px;
     padding: 20px;
+    text-align: center; /* Centralizar conteúdo */
 `;
 
-// Rota para exibir uma página com a imagem e o vídeo
+const videoEstilos = `
+    width: 80%; /* Definir largura do vídeo */
+    max-width: 800px; /* Definir largura máxima */
+    margin: 0 auto; /* Centralizar vídeo */
+`;
+
+// Rota para exibir uma página com a imagem e o vídeo centralizados
 app.get('/api/get_with_image_and_video', (req, res) => {
     res.send(`
         <div style="${estilos}">
@@ -18,7 +25,7 @@ app.get('/api/get_with_image_and_video', (req, res) => {
             <img src="https://lab-ec2-ci-cd.s3.us-east-2.amazonaws.com/Top.png" alt="Imagem de exemplo">
             <p>Versão 001</p>
             <p>Aqui está um vídeo:</p>
-            <video width="640" height="360" controls>
+            <video controls style="${videoEstilos}">
                 <source src="https://lab-ec2-ci-cd.s3.us-east-2.amazonaws.com/2024-04-03+02-49-17.mp4" type="video/mp4">
                 Seu navegador não suporta o elemento de vídeo.
             </video>
@@ -29,6 +36,7 @@ app.get('/api/get_with_image_and_video', (req, res) => {
 app.listen(process.env.PORT, () => {
     console.log("Servidor está ouvindo na porta", process.env.PORT);
 });
+
 
 
 
