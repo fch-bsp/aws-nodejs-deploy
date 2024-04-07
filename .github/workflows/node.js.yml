@@ -32,9 +32,9 @@ jobs:
           touch .env
           echo "${{ secrets.PROD }}" > .env
 
-      # Restart PM2 with 3 instances
-      - name: Restart PM2 with 3 instances
-        run: pm2 restart Backend --instances 3
+      # Scale PM2 process to 3 instances
+      - name: Scale PM2 process to 3 instances
+        run: pm2 scale Backend 3
 
       # Check if PM2 process is active
       - name: Check if PM2 process is active
