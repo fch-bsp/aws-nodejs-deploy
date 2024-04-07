@@ -32,10 +32,11 @@ jobs:
           touch .env
           echo "${{ secrets.PROD }}" > .env
 
-      - name: Restart PM2
-        run: pm2 restart Backend
+      # Restart PM2 with 3 instances
+      - name: Restart PM2 with 3 instances
+        run: pm2 restart Backend --instances 3
 
-      # Verificar se o processo PM2 está ativo
+      # Check if PM2 process is active
       - name: Check if PM2 process is active
         run: |
           if pm2 list | grep -q 'Backend'; then
@@ -44,3 +45,4 @@ jobs:
             echo "Backend is not active"
             exit 1
           fi
+
