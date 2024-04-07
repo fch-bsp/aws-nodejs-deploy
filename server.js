@@ -13,7 +13,8 @@ const estilos = `
 app.get('/api/get_with_image', (req, res) => {
     res.send(`
         <div style="${estilos}">
-            <p>Esta é Topologia :</p>
+            <p>Esta é Topologia:</p>
+            <p>Implantar projeto Node.js na Amazon EC2 com GitHub Actions:</p>
             <img src="https://lab-ec2-ci-cd.s3.us-east-2.amazonaws.com/Top.png" alt="Imagem de exemplo">
             <p>Versão 001</p>
         </div>
