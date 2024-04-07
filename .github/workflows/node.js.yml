@@ -30,4 +30,6 @@ jobs:
           touch .env
           echo "${{ secrets.PROD }}" > .env    
     - run: pm2 restart Backend    
-
+     # Adicionando logs
+    - name: Print status
+      run: echo "PM2 restarted successfully"
