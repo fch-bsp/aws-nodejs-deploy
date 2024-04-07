@@ -28,7 +28,7 @@ app.get('/api/get_with_image_and_video', (req, res) => {
                 <source src="https://lab-ec2-ci-cd.s3.us-east-2.amazonaws.com/2024-04-03+02-49-17.mp4" type="video/mp4">
                 Seu navegador não suporta o elemento de vídeo.
             </video>
-            <p>trabalhanod com Secrets and Variables PROD= .env: ${process.env.NAME}</p>
+            <p>Trabalhando com Secrets and Variables PROD= .env: ${process.env.NAME}</p>
         </div>
     `);
 });
