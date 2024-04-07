@@ -20,11 +20,10 @@ const videoEstilos = `
 app.get('/api/get_with_image_and_video', (req, res) => {
     res.send(`
         <div style="${estilos}">
-            <p>Esta é Topologia:</p>
+            <p>Esta é Topologia: versão 001</p>
             <p>Implantar projeto Node.js na Amazon EC2 com GitHub Actions:</p>
             <img src="https://lab-ec2-ci-cd.s3.us-east-2.amazonaws.com/Top.png" alt="Imagem de exemplo">
-            <p>Versão 001</p>
-            <p>Aqui está um vídeo:</p>
+            <p>Aqui está um vídeo mostrando passo-passo da aplicação utilizando GitHub Actions:</p>
             <video controls style="${videoEstilos}">
                 <source src="https://lab-ec2-ci-cd.s3.us-east-2.amazonaws.com/2024-04-03+02-49-17.mp4" type="video/mp4">
                 Seu navegador não suporta o elemento de vídeo.
