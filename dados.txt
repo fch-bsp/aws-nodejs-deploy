@@ -42,7 +42,7 @@ http://localhost:8000/api/get
 
 acessar container 
 
-docker exec -it 3525ff2a113c /bin/bash
+docker exec -it 82d35205b72a /bin/bash
 
 
 docker exec -it 26084a8be4f0 pm2-runtime start server.js --name backend -i 3 --auto-restart
