@@ -20,7 +20,7 @@ const videoEstilos = `
 app.get('/api/get_with_image_and_video', (req, res) => {
     res.send(`
         <div style="${estilos}">
-            <p>Esta é Topologia: versão 002</p>
+            <p>Esta é Topologia: versão 003</p>
             <p>Implantar projeto Node.js na Amazon EC2 com GitHub Actions:</p>
             <img src="https://lab-ec2-ci-cd.s3.us-east-2.amazonaws.com/Top.png" alt="Imagem de exemplo">
             <p>Aqui está um vídeo mostrando passo-passo da aplicação utilizando GitHub Actions:</p>
