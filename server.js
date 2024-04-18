@@ -39,45 +39,6 @@ app.listen(process.env.PORT, () => {
 
 
 
-// versão 01
-
-
-// const express = require("express");
-// const app = express();
-// require("dotenv").config();
-
-// // Estilos de formatação adicionados para destacar a sintaxe
-// const estilos = `
-//     background-color: #000; /* Cor de fundo preto */
-//     color: #fff; /* Cor do texto branco */
-//     font-size: 16px; /* Tamanho da fonte */
-//     padding: 20px; /* Espaçamento interno */
-// `;
-// // http://3.18.20.84/api
-// app.get('/api/get', (req, res) => {
-//     res.send('<div style="' + estilos + '">hello back to nodejs v2</div>');
-// });
-
-// //http://3.18.20.84/api/get_user_details
-// app.get('/api/get_user_details', (req, res) => {
-//     res.send(`
-//         <div style="${estilos}">
-//             <p>User Details:</p>
-//             <ul>
-//                 <li>Name:Fernando Carlos horas</li>
-//                 <li>Idade: 43</li>
-//                 <li>Contato: 11995143947</li>
-//                 <li>Versão app: 001</li>                
-//             </ul>
-//             <p>.env: ${process.env.NAME}</p>
-//         </div>
-//     `);
-// });
-
-// app.listen(process.env.PORT, () => {
-//     console.log("listening to 8000");
-// });
-
 
 
 // versão 02
